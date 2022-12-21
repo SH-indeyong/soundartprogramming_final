@@ -112,7 +112,7 @@ function draw(){
   
   //건반 터치 시 색 변화
   for(var m = 0; m < touches.length; m++){
-    if(60 < touches[m].y && touches[m].y < 200 ){
+    if(60 < touches[m].y && touches[m].y < 260 ){
       if(0 < touches[m].x && touches[m].x < w-1){
         fill(255, 0, 0);
         rect(0, 60, w-1, 200);
